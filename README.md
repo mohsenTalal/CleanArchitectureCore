@@ -19,6 +19,18 @@ This is a solution template for creating an Application Programming Interface (A
  * Redis Cache
  * Caching Response
  
+# Overview 
+ # Common
+ This will contain all entities, enums, exceptions, interfaces, types and logic specific to the domain layer.
+
+ # Application
+This layer contains all application logic. It is dependent on the domain layer, but has no dependencies on any other layer or project. This layer defines interfaces that are implemented by outside layers. For example, if the application need to access a notification service, a new interface would be added to application and an implementation would be created within infrastructure.
+
+ # Infrastructure
+ This layer contains classes for accessing external resources such as file systems, web services, smtp, and so on. These classes should be based on interfaces defined within     the application layer.
+ 
+ # API
+ This layer is a Maps to the layers that hold the Web, UI and Presenter concerns. In the context of our API, this means it accepts input in the form of HTTP requests over the   network (e.g., GET/POST/etc.) and returns its output as content formatted as JSON/HTML/XML, etc. The Presenters contain .NET framework-specific references and types, so they also live here as per The Dependency Rule we don't want to pass any of them inward.
  # Getting Started
 
 Create a new project based on this template by following 

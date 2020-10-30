@@ -1,7 +1,7 @@
 ﻿<VSTemplate Version="3.0.0" Type="ProjectGroup" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
-    <Name>EAI.StcPay Template</Name>
-    <Description>A full template for creating a new EAI project, Created by Integration Team</Description>
+    <Name>EAI  Template</Name>
+    <Description>A full template for creating a new EAI project, Created by Abdulmohsen Alenazi</Description>
     <ProjectType>CSharp</ProjectType>
     <ProjectSubType>
     </ProjectSubType>

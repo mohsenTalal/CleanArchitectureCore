@@ -1,0 +1,46 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>EAI.Template1.Application</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EAI.Template1.Application</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EAI.Template1.Application.csproj" File="EAI.Template1.Application.csproj" ReplaceParameters="true">
+      <Folder Name="Application" TargetFolderName="Application">
+        <Folder Name="Models" TargetFolderName="Models">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationsDTO.cs">ApplicationsDTO.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Client.cs">Client.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Scope.cs">Scope.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="UserWithToken.cs">UserWithToken.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Services" TargetFolderName="Services">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationService.cs">ApplicationService.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="IApplicationService.cs">IApplicationService.cs</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Infrastructure" TargetFolderName="Infrastructure">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ICachingHandler.cs">ICachingHandler.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IRepository.cs">IRepository.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ITokenBuilder.cs">ITokenBuilder.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IUnitOfWork.cs">IUnitOfWork.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Logging" TargetFolderName="Logging">
+        <Folder Name="Models" TargetFolderName="Models">
+          <ProjectItem ReplaceParameters="true" TargetFileName="LoggingModel.cs">LoggingModel.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ILoggerBuilder.cs">ILoggerBuilder.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LoggerBuilder.cs">LoggerBuilder.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

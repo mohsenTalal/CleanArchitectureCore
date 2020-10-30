@@ -1,0 +1,34 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>EAI.Template1.Data</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EAI.Template1.Data</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EAI.Template1.Data.csproj" File="EAI.Template1.Data.csproj" ReplaceParameters="true">
+      <Folder Name="DB" TargetFolderName="DB">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationKeys.cs">ApplicationKeys.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Applications.cs">Applications.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationSettings.cs">ApplicationSettings.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationTokens.cs">ApplicationTokens.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Clients.cs">Clients.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ClientScopes.cs">ClientScopes.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ClientTypes.cs">ClientTypes.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EAI_GatewayContext.cs">EAI_GatewayContext.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Logs.cs">Logs.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Ostypes.cs">Ostypes.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Scopes.cs">Scopes.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

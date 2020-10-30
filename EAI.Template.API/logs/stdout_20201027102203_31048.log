@@ -1,0 +1,36 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\ATAlenazi\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\ATAlenazi\source\repos\EAI.Template1\EAI.Template1\EAI.Template1.API
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/1.1 GET http://localhost:50152/swagger/v1/swagger.json  
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+System.Reflection.ReflectionTypeLoadException: Unable to load one or more of the requested types.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.AddHeaderOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.9.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.AppendAuthorizeToSummaryOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.9.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.AuthorizationInputOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.9.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.DescriptionOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.9.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.ExamplesOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.9.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.AddFileParamTypesOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.9.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.AddResponseHeadersFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.9.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+   at System.Reflection.RuntimeModule.GetTypes(RuntimeModule module)
+   at System.Reflection.RuntimeAssembly.get_DefinedTypes()
+   at Microsoft.AspNetCore.Mvc.ApplicationParts.AssemblyPart.get_Types()
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFeatureProvider.PopulateFeature(IEnumerable`1 parts, ControllerFeature feature)
+   at Microsoft.AspNetCore.Mvc.ApplicationParts.ApplicationPartManager.PopulateFeature[TFeature](TFeature feature)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetControllerTypes()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.GetDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.get_ActionDescriptors()
+   at Microsoft.AspNetCore.Mvc.ApiExplorer.ApiDescriptionGroupCollectionProvider.get_ApiDescriptionGroups()
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCor

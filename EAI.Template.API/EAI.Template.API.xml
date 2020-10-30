@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>$safeprojectname$</name>
+    </assembly>
+    <members>
+        <member name="M:$safeprojectname$.Controllers.AccountController.Login($safeprojectname$.Model.LoginModel)">
+            <summary>
+            Login
+            </summary>
+            <param name="LoginModel">LoginModel </param> 
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response> 
+            <response code="401">Permission</response>  
+        </member>
+        <member name="M:$safeprojectname$.Controllers.ApplicationsController.Get">
+             <summary>
+            Get
+             </summary>
+            <response code="200">Success</response>
+            <response code="400">Bad Request</response> 
+            <response code="401">Permission</response>  
+        </member>
+        <member name="M:$safeprojectname$.Controllers.ApplicationsController.GetById(System.Int32)">
+             <summary>
+            GetById
+             </summary>
+             <param name="id">id </param> 
+             <response code="200">Success</response>
+             <response code="400">Bad Request</response> 
+             <response code="401">Permission</response>  
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:$safeprojectname$.Controllers.ValuesController.Get" -->
+    </members>
+</doc>

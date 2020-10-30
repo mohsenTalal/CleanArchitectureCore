@@ -1,0 +1,104 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>EAI.Template.API</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EAI.Template.API</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EAI.Template.API.csproj" File="EAI.Template.API.csproj" ReplaceParameters="true">
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <Folder Name="PublishProfiles" TargetFolderName="PublishProfiles">
+          <ProjectItem ReplaceParameters="false" TargetFileName="CustomProfile.pubxml">CustomProfile.pubxml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="launchSettings.json">launchSettings.json</ProjectItem>
+      </Folder>
+      <Folder Name="Account" TargetFolderName="Account">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AccountController.cs">AccountController.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Applications" TargetFolderName="Applications">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ApplicationsController.cs">ApplicationsController.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LoginModel.cs">LoginModel.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Exceptions" TargetFolderName="Exceptions">
+        <ProjectItem ReplaceParameters="true" TargetFileName="APIException.cs">APIException.cs</ProjectItem>
+      </Folder>
+      <Folder Name="logs" TargetFolderName="logs">
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026131333_24916.log">stdout_20201026131333_24916.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026131438_25076.log">stdout_20201026131438_25076.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026193347_25076.log">stdout_20201026193347_25076.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026203241_14380.log">stdout_20201026203241_14380.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026203402_34208.log">stdout_20201026203402_34208.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026203456_35984.log">stdout_20201026203456_35984.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026205007_34924.log">stdout_20201026205007_34924.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026205838_9280.log">stdout_20201026205838_9280.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026210353_33536.log">stdout_20201026210353_33536.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026210627_32436.log">stdout_20201026210627_32436.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026210926_33536.log">stdout_20201026210926_33536.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201026212641_21524.log">stdout_20201026212641_21524.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027091444_33424.log">stdout_20201027091444_33424.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027092252_22868.log">stdout_20201027092252_22868.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027092420_7744.log">stdout_20201027092420_7744.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027092619_37024.log">stdout_20201027092619_37024.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027093344_31472.log">stdout_20201027093344_31472.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027093506_31648.log">stdout_20201027093506_31648.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027093544_26608.log">stdout_20201027093544_26608.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027093834_36300.log">stdout_20201027093834_36300.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027093938_22852.log">stdout_20201027093938_22852.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027094044_35604.log">stdout_20201027094044_35604.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027095408_35668.log">stdout_20201027095408_35668.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027101739_32048.log">stdout_20201027101739_32048.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027101849_19944.log">stdout_20201027101849_19944.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027101926_26788.log">stdout_20201027101926_26788.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027102107_17868.log">stdout_20201027102107_17868.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027102203_31048.log">stdout_20201027102203_31048.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027102413_25108.log">stdout_20201027102413_25108.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027102556_32852.log">stdout_20201027102556_32852.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027104107_33380.log">stdout_20201027104107_33380.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027104309_36380.log">stdout_20201027104309_36380.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027133313_36372.log">stdout_20201027133313_36372.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027133400_14316.log">stdout_20201027133400_14316.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027133857_34060.log">stdout_20201027133857_34060.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027134532_9156.log">stdout_20201027134532_9156.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027135930_31088.log">stdout_20201027135930_31088.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027140340_18660.log">stdout_20201027140340_18660.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027140525_16192.log">stdout_20201027140525_16192.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027141440_30876.log">stdout_20201027141440_30876.log</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="stdout_20201027141614_33932.log">stdout_20201027141614_33932.log</ProjectItem>
+      </Folder>
+      <Folder Name="Middlewares" TargetFolderName="Middlewares">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BasicAuthenticationHandler.cs">BasicAuthenticationHandler.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="CustomValidationResult.cs">CustomValidationResult.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ExceptionMiddleware.cs">ExceptionMiddleware.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="LoggingMiddleware.cs">LoggingMiddleware.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Models" TargetFolderName="Models">
+        <ProjectItem ReplaceParameters="true" TargetFileName="BadRequestGetExample.cs">BadRequestGetExample.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EAICustomError.cs">EAICustomError.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ErrorResponse.cs">ErrorResponse.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="InternalErrorGetExample.cs">InternalErrorGetExample.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="PermissionGetExample.cs">PermissionGetExample.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ValidationError.cs">ValidationError.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ValidationErrorResponse.cs">ValidationErrorResponse.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Values" TargetFolderName="Values">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ValuesController.cs">ValuesController.cs</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.json">appsettings.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="appsettings.Development.json">appsettings.Development.json</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="EAI.Template.API.xml">EAI.Template.API.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,36 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>EAI.Template1.Infrastructure</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>EAI.Template1.Infrastructure</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <CreateInPlace>true</CreateInPlace>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="EAI.Template1.Infrastructure.csproj" File="EAI.Template1.Infrastructure.csproj" ReplaceParameters="true">
+      <Folder Name="Auth" TargetFolderName="Auth">
+        <ProjectItem ReplaceParameters="true" TargetFileName="RSAKeyHelper.cs">RSAKeyHelper.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TokenAuthOption.cs">TokenAuthOption.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="TokenBuilder.cs">TokenBuilder.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Caching" TargetFolderName="Caching">
+        <ProjectItem ReplaceParameters="true" TargetFileName="CachingHandler.cs">CachingHandler.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Mapping" TargetFolderName="Mapping">
+        <ProjectItem ReplaceParameters="true" TargetFileName="MappingProfile.cs">MappingProfile.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Persistence" TargetFolderName="Persistence">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Repository.cs">Repository.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UnitOfWork.cs">UnitOfWork.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
